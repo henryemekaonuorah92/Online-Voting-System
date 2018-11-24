@@ -87,13 +87,27 @@
             </div>
             <div class="row">
                 <div class="col s12">
-                <h6><strong>Select Year:</strong></h6>
+                <h6><strong>Select Local Government:</strong></h6>
                     <asp:CheckBoxList ID="CheckBoxList2" runat="server" RepeatDirection="Horizontal">
-                        <asp:ListItem Value="1">1 year</asp:ListItem>
-                        <asp:ListItem Value="1">2 year</asp:ListItem>
-                        <asp:ListItem Value="1">3 year</asp:ListItem>
-                        <asp:ListItem Value="1">4 year</asp:ListItem>
-                        <asp:ListItem Value="1">5 year</asp:ListItem>
+                        <asp:ListItem Value="1">Agege</asp:ListItem>
+                        <asp:ListItem Value="1">Ajeromi-Ifelodun</asp:ListItem>
+                        <asp:ListItem Value="1">Alimosho</asp:ListItem>
+                        <asp:ListItem Value="1">Amuwo-Odofin</asp:ListItem>
+                        <asp:ListItem Value="1">Apapa</asp:ListItem>
+                        <asp:ListItem Value="1">Badagry</asp:ListItem>
+                        <asp:ListItem Value="1">Epe</asp:ListItem>
+                        <asp:ListItem Value="1">Eti-Osa</asp:ListItem>
+                        <asp:ListItem Value="1">Ibeju/Lekki</asp:ListItem>
+                        <asp:ListItem Value="1">Ifako-Ijaye </asp:ListItem>
+                        <asp:ListItem Value="1">Ikeja</asp:ListItem>
+                        <asp:ListItem Value="1">Ikorodu</asp:ListItem>
+                        <asp:ListItem Value="1">Kosofe</asp:ListItem>
+                        <asp:ListItem Value="1">Lagos Island</asp:ListItem>
+                        <asp:ListItem Value="1">Lagos Mainland</asp:ListItem>
+                        <asp:ListItem Value="1">Mushin</asp:ListItem>
+                        <asp:ListItem Value="1">Ojo</asp:ListItem>
+                        <asp:ListItem Value="1">Oshodi-Isolo</asp:ListItem>
+                        <asp:ListItem Value="1">Shomolu</asp:ListItem>
                     </asp:CheckBoxList>
                 </div>
             </div>

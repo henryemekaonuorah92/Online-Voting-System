@@ -73,15 +73,12 @@
             </div>
             <div class="row">
                 <div class="col s12">
-                    <h6><strong>Select Course:</strong></h6>
+                    <h6><strong>Select Party:</strong></h6>
                     <asp:CheckBoxList ID="CheckBoxList1" runat="server" RepeatDirection="Horizontal">
-                        <asp:ListItem Value="1">Btech</asp:ListItem>
-                        <asp:ListItem Value="1">Mtech</asp:ListItem>
-                        <asp:ListItem Value="1">Phd</asp:ListItem>
-                        <asp:ListItem Value="1">MBA</asp:ListItem>
-                        <asp:ListItem Value="1">Btech + Mtech</asp:ListItem>
-                        <asp:ListItem Value="1">Btech + MBA</asp:ListItem>
-                        <asp:ListItem Value="1">Mtech + Phd</asp:ListItem>
+                        <asp:ListItem Value="1">A.P.C</asp:ListItem>
+                        <asp:ListItem Value="1">P.D.P</asp:ListItem>
+                        <asp:ListItem Value="1">P.P.A</asp:ListItem>
+                        <asp:ListItem Value="1">A.P.G.A</asp:ListItem>
                     </asp:CheckBoxList>
                 </div>
             </div>

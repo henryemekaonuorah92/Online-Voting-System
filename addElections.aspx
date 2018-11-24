@@ -99,11 +99,45 @@
             </div>
             <div class="row">
                 <div class="col s12">
-                <h6><strong>Select Branch:</strong></h6>
+                <h6><strong>Select State:</strong></h6>
                     <asp:CheckBoxList ID="CheckBoxList3" runat="server" RepeatDirection="Horizontal">
-                        <asp:ListItem Value="1">IT</asp:ListItem>
-                        <asp:ListItem Value="1">ECE</asp:ListItem>
-                        <asp:ListItem Value="1">BME</asp:ListItem>
+                        <asp:ListItem Value="1">Abia</asp:ListItem>
+                        <asp:ListItem Value="1">Adamawa</asp:ListItem>
+                        <asp:ListItem Value="1">Anambra</asp:ListItem>
+                        <asp:ListItem Value="1">Akwa Ibom</asp:ListItem>
+                        <asp:ListItem Value="1">Bauchi</asp:ListItem>
+                        <asp:ListItem Value="1">Bayelsa</asp:ListItem>
+                        <asp:ListItem Value="1">Benue</asp:ListItem>
+                        <asp:ListItem Value="1">Borno</asp:ListItem>
+                        <asp:ListItem Value="1">Cross River</asp:ListItem>
+                        <asp:ListItem Value="1">Delta</asp:ListItem>
+                        <asp:ListItem Value="1">Ebonyi</asp:ListItem>
+                        <asp:ListItem Value="1">Enugu</asp:ListItem>
+                        <asp:ListItem Value="1">Edo</asp:ListItem>
+                        <asp:ListItem Value="1">Ekiti</asp:ListItem>
+                        <asp:ListItem Value="1">FCT - Abuja</asp:ListItem>
+                        <asp:ListItem Value="1">Gombe</asp:ListItem>
+                        <asp:ListItem Value="1">Imo</asp:ListItem>
+                        <asp:ListItem Value="1">Jigawa</asp:ListItem>
+                        <asp:ListItem Value="1">Kaduna</asp:ListItem>
+                        <asp:ListItem Value="1">Kano</asp:ListItem>
+                        <asp:ListItem Value="1">Katsina</asp:ListItem>
+                        <asp:ListItem Value="1">Kebbi</asp:ListItem>
+                        <asp:ListItem Value="1">Kogi</asp:ListItem>
+                        <asp:ListItem Value="1">Kwara</asp:ListItem>
+                        <asp:ListItem Value="1">Lagos</asp:ListItem>
+                        <asp:ListItem Value="1">Nasarawa</asp:ListItem>
+                        <asp:ListItem Value="1">Niger</asp:ListItem>
+                        <asp:ListItem Value="1">Ogun</asp:ListItem>
+                        <asp:ListItem Value="1">Ondo</asp:ListItem>
+                        <asp:ListItem Value="1">Osun</asp:ListItem>
+                        <asp:ListItem Value="1">Oyo</asp:ListItem>
+                        <asp:ListItem Value="1">Plateau</asp:ListItem>
+                        <asp:ListItem Value="1">Rivers</asp:ListItem>
+                        <asp:ListItem Value="1">Sokoto</asp:ListItem>
+                        <asp:ListItem Value="1">Taraba</asp:ListItem>
+                        <asp:ListItem Value="1">Yobe</asp:ListItem>
+                        <asp:ListItem Value="1">Zamfara</asp:ListItem>
                     </asp:CheckBoxList>
                 </div>
             </div>

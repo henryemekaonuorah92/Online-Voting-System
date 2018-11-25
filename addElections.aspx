@@ -71,7 +71,7 @@
                     <label for="endtime"></label>
                 </div>
             </div>
-            <div class="row">
+<!--             <div class="row">
                 <div class="col s12">
                     <h6><strong>Select Party:</strong></h6>
                     <asp:CheckBoxList ID="CheckBoxList1" runat="server" RepeatDirection="Horizontal">
@@ -81,7 +81,7 @@
                         <asp:ListItem Value="1">A.P.G.A</asp:ListItem>
                     </asp:CheckBoxList>
                 </div>
-            </div>
+            </div> -->
             <div class="row">
                 <div class="col s12">
                 <h6><strong>Select Local Government:</strong></h6>

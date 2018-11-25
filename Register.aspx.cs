@@ -21,7 +21,7 @@ public partial class images_Register : System.Web.UI.Page
         con = new SqlConnection(str);
         con.Open();
 
-        string command = "insert into users values('" + rollnum.Value + "','" + firstname.Value + "','" + lastname.Value + "','" + mobile.Value + "','" + email.Value + "','" + state.Value + "','" + birthdate.Value + "'," + pointer.Value + ",'" + DropDownList1.SelectedValue + "','" + DropDownList2.SelectedValue + "'," + DropDownList3.SelectedValue + ",'" + DropDownList4.SelectedValue + "','" + RadioButtonList1.SelectedValue + "','"+DropDownList5.SelectedValue+"','"+pass.Value+"')";
+        string command = "insert into users values('" + rollnum.Value + "','" + firstname.Value + "','" + lastname.Value + "','" + mobile.Value + "','" + email.Value + "','" + DropDownList4.SelectedValue + "','" + birthdate.Value + "','" + DropDownList1.SelectedValue + "','" + DropDownList2.SelectedValue + "'," + DropDownList3.SelectedValue + ",'" + RadioButtonList1.SelectedValue + "','"+pass.Value+"')";
         SqlCommand cmd = new SqlCommand(command,con);
         try {
             cmd.ExecuteNonQuery();

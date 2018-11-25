@@ -30,38 +30,28 @@ public partial class addElections : System.Web.UI.Page
         two = endtime.Value;
         DateTime dt2 = Convert.ToDateTime(one + " " + two);      
 
-        int[] course = new int[7];
-        int c = 0;
-        foreach (ListItem item in CheckBoxList1.Items)
-        {
-            if (item.Selected)
-            {
-                course[c] = 1;
-            }
-            c++;
-        }
-        int[] year = new int[5];
         c = 0;
+        int localGovernment = 0;
         foreach (ListItem item in CheckBoxList2.Items)
         {
             if (item.Selected)
             {
-                year[c] = 1;
+                localGovernment = item.Selected.Value;
             }
             c++;
         }
-        int[] branch = new int[3];
         c = 0;
+        int state = 0;
         foreach (ListItem item in CheckBoxList3.Items)
         {
             if (item.Selected)
             {
-                branch[c] = 1;
+                state = item.Selected.Value;
             }
             c++;
         }
 
-        string command = "insert into elections values('"+title.Value+"','"+dt1.ToString()+"','"+dt2.ToString()+"','"+description.Value+"',"+course[0]+","+course[1]+","+course[2]+","+course[3]+","+course[4]+","+course[5]+","+course[6]+","+year[0]+","+year[1]+","+year[2]+","+year[3]+","+year[4]+","+branch[0]+","+branch[1]+","+branch[2]+")";
+        string command = "insert into elections values('"+title.Value+"','"+dt1.ToString()+"','"+dt2.ToString()+"','"+description.Value+"',"+state+","+localGovernment+")";
         SqlCommand cmd = new SqlCommand(command, con);
         try {
             cmd.ExecuteNonQuery();

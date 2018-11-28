@@ -60,26 +60,14 @@
                         </p>
                 </div>
                 <div class="col s6">
-                        <p><b>CGPA:     </b>
-                            <asp:Label ID="Label8" runat="server" Text="Label"></asp:Label>
-                        </p>
-                        <p><b>Hostel:     </b>
+                        <p><b>Party:     </b>
                             <asp:Label ID="Label9" runat="server" Text="Label"></asp:Label>
                         </p>
-                        <p><b>Course:     </b>
+                        <p><b>L.G.A:     </b>
                             <asp:Label ID="Label10" runat="server" Text="Label"></asp:Label>
-                        </p>
-                       <p><b>Year:     </b>
-                            <asp:Label ID="Label11" runat="server" Text="Label"></asp:Label>
-                        </p>
-                        <p><b>Section:     </b>
-                            <asp:Label ID="Label12" runat="server" Text="Label"></asp:Label>
                         </p>
                         <p><b>Gender:     </b>
                             <asp:Label ID="Label13" runat="server" Text="Label"></asp:Label>
-                        </p>
-                        <p><b>Branch:     </b>
-                            <asp:Label ID="Label14" runat="server" Text="Label"></asp:Label>
                         </p>
                 </div>
             </div>

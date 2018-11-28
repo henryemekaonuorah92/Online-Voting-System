@@ -30,26 +30,8 @@ public partial class addElections : System.Web.UI.Page
         two = endtime.Value;
         DateTime dt2 = Convert.ToDateTime(one + " " + two);      
 
-        c = 0;
-        int localGovernment = 0;
-        foreach (ListItem item in CheckBoxList2.Items)
-        {
-            if (item.Selected)
-            {
-                localGovernment = item.Selected.Value;
-            }
-            c++;
-        }
-        c = 0;
-        int state = 0;
-        foreach (ListItem item in CheckBoxList3.Items)
-        {
-            if (item.Selected)
-            {
-                state = item.Selected.Value;
-            }
-            c++;
-        }
+        string localGovernment = DropDownList2.SelectedValue;
+        string state = DropDownList4.SelectedValue;
 
         string command = "insert into elections values('"+title.Value+"','"+dt1.ToString()+"','"+dt2.ToString()+"','"+description.Value+"',"+state+","+localGovernment+")";
         SqlCommand cmd = new SqlCommand(command, con);

@@ -84,7 +84,7 @@
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Cannot be empty!" ControlToValidate="lastname" CssClass="red-text"></asp:RequiredFieldValidator>
                 </div>
             </div>
-            <div class="row">
+<!--             <div class="row">
                 <div class="input-field col s6">
                     <i class="material-icons prefix">perm_identity</i>
                     <input id="rollnum" type="text" class="validate" runat="server" maxlength="15" />
@@ -97,7 +97,7 @@
                     <label for="state">State</label>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="Cannot be empty!" ControlToValidate="state" CssClass="red-text"></asp:RequiredFieldValidator>
                 </div>
-            </div>
+            </div> -->
             <div class="row">
                 <div class="input-field col s6">
                     <i class="material-icons prefix">phone</i>
@@ -132,59 +132,83 @@
             <div class="row">
                 <div class="input-field col s6">
                     <asp:DropDownList ID="DropDownList1" runat="server">
-                        <asp:ListItem Text="BH-1" Value="bh1"></asp:ListItem>
-                        <asp:ListItem Text="BH-2" Value="bh2"></asp:ListItem>
-                        <asp:ListItem Text="BH-3" Value="bh3"></asp:ListItem>
-                        <asp:ListItem Text="BH-4" Value="bh4"></asp:ListItem>
-                        <asp:ListItem Text="GH-1" Value="gh1"></asp:ListItem>
-                        <asp:ListItem Text="GH-2" Value="gh2"></asp:ListItem>
-                        <asp:ListItem Text="GH-3" Value="gh3"></asp:ListItem>
-                        <asp:ListItem Text="RS Apartments" Value="rs"></asp:ListItem>
+                        <asp:ListItem Text="P.D.P" Value="P.D.P"></asp:ListItem>
+                        <asp:ListItem Text="A.P.C" Value="A.P.C"></asp:ListItem>
+                        <asp:ListItem Text="A.P.G.A" Value="A.P.G.A"></asp:ListItem>
+                        <asp:ListItem Text="A.N.C" Value="A.N.C"></asp:ListItem>
                     </asp:DropDownList>
-                    <label>Hostel</label>
+                    <label>Party</label>
                 </div>
                 <div class="input-field col s6">
                     <asp:DropDownList ID="DropDownList2" runat="server">
-                        <asp:ListItem Text="Btech" Value="btech"></asp:ListItem>
-                        <asp:ListItem Text="Mtech" Value="mtech"></asp:ListItem>
-                        <asp:ListItem Text="Phd" Value="phd"></asp:ListItem>
-                        <asp:ListItem Text="MBA" Value="mba"></asp:ListItem>
-                        <asp:ListItem Text="Btech + Mtech" Value="btechmtech"></asp:ListItem>                       
-                        <asp:ListItem Text="Btech + MBA" Value="btechmba"></asp:ListItem>
-                        <asp:ListItem Text="Mtech + Phd" Value="btechphd"></asp:ListItem>
+                        <asp:ListItem Text="Agege" Value="Agege"></asp:ListItem>
+                        <asp:ListItem Text="Ajeromi-Ifelodun" Value="Ajeromi-Ifelodun"></asp:ListItem>
+                        <asp:ListItem Text="Alimosho" Value="Alimosho"></asp:ListItem>
+                        <asp:ListItem Text="Amuwo-Odofin" Value="Amuwo-Odofin"></asp:ListItem>
+                        <asp:ListItem Text="Apapa" Value="Apapa"></asp:ListItem>
+                        <asp:ListItem Text="Badagry" Value="Badagry"></asp:ListItem>
+                        <asp:ListItem Text="Epe" Value="Epe"></asp:ListItem>
+                        <asp:ListItem Text="Eti-Osa" Value="Eti-Osa"></asp:ListItem>
+                        <asp:ListItem Text="Ibeju/Lekki" Value="Ibeju/Lekki"></asp:ListItem>
+                        <asp:ListItem Text="Ifako-Ijaye " Value="Ifako-Ijaye "></asp:ListItem>
+                        <asp:ListItem Text="Ikeja" Value="Ikeja"></asp:ListItem>
+                        <asp:ListItem Text="Ikorodu" Value="Ikorodu"></asp:ListItem>
+                        <asp:ListItem Text="Kosofe" Value="Kosofe"></asp:ListItem>
+                        <asp:ListItem Text="Lagos Island" Value="Lagos Island"></asp:ListItem>
+                        <asp:ListItem Text="Lagos Mainland" Value="Lagos Mainland"></asp:ListItem>
+                        <asp:ListItem Text="Mushin" Value="Mushin"></asp:ListItem>
+                        <asp:ListItem Text="Ojo" Value="Ojo"></asp:ListItem>
+                        <asp:ListItem Text="Oshodi-Isolo" Value="Oshodi-Isolo"></asp:ListItem>
+                        <asp:ListItem Text="Shomolu" Value="Shomolu"></asp:ListItem>
                     </asp:DropDownList>
-                    <label>Course</label>
+                    <label>Local Government</label>
                 </div>
             </div>
             <div class="row">
-                <div class="input-field col s6">
-                    <asp:DropDownList ID="DropDownList3" runat="server">
-                        <asp:ListItem Text="1st Year" Value="1"></asp:ListItem>
-                        <asp:ListItem Text="2nd Year" Value="2"></asp:ListItem>
-                        <asp:ListItem Text="3rd Year" Value="3"></asp:ListItem>
-                        <asp:ListItem Text="4th Year" Value="4"></asp:ListItem>
-                        <asp:ListItem Text="5th Year" Value="4"></asp:ListItem>
-                    </asp:DropDownList>
-                    <label>Year</label>
-                </div>
                 <div class="input-field col s6">
                     <asp:DropDownList ID="DropDownList4" runat="server">
-                        <asp:ListItem Text="A" Value="A"></asp:ListItem>
-                        <asp:ListItem Text="B" Value="B"></asp:ListItem>
-                        <asp:ListItem Text="C" Value="C"></asp:ListItem>
+                        <asp:ListItem Text="Abia" Value="Abia" ></asp:ListItem>
+                        <asp:ListItem Text="Adamawa" Value="Adamawa" ></asp:ListItem>
+                        <asp:ListItem Text="Anambra" Value="Anambra" ></asp:ListItem>
+                        <asp:ListItem Text="Akwa Ibom" Value="Akwa Ibom" ></asp:ListItem>
+                        <asp:ListItem Text="Bauchi" Value="Bauchi" ></asp:ListItem>
+                        <asp:ListItem Text="Bayelsa" Value="Bayelsa" ></asp:ListItem>
+                        <asp:ListItem Text="Benue" Value="Benue" ></asp:ListItem>
+                        <asp:ListItem Text="Borno" Value="Borno" ></asp:ListItem>
+                        <asp:ListItem Text="Cross River" Value="Cross River" ></asp:ListItem>
+                        <asp:ListItem Text="Delta" Value="Delta" ></asp:ListItem>
+                        <asp:ListItem Text="Ebonyi" Value="Ebonyi" ></asp:ListItem>
+                        <asp:ListItem Text="Enugu" Value="Enugu" ></asp:ListItem>
+                        <asp:ListItem Text="Edo" Value="Edo" ></asp:ListItem>
+                        <asp:ListItem Text="Ekiti" Value="Ekiti" ></asp:ListItem>
+                        <asp:ListItem Text="FCT - Abuja" Value="FCT - Abuja" ></asp:ListItem>
+                        <asp:ListItem Text="Gombe" Value="Gombe" ></asp:ListItem>
+                        <asp:ListItem Text="Imo" Value="Imo" ></asp:ListItem>
+                        <asp:ListItem Text="Jigawa" Value="Jigawa" ></asp:ListItem>
+                        <asp:ListItem Text="Kaduna" Value="Kaduna" ></asp:ListItem>
+                        <asp:ListItem Text="Kano" Value="Kano" ></asp:ListItem>
+                        <asp:ListItem Text="Katsina" Value="Katsina" ></asp:ListItem>
+                        <asp:ListItem Text="Kebbi" Value="Kebbi" ></asp:ListItem>
+                        <asp:ListItem Text="Kogi" Value="Kogi" ></asp:ListItem>
+                        <asp:ListItem Text="Kwara" Value="Kwara" ></asp:ListItem>
+                        <asp:ListItem Text="Lagos" Value="Lagos" ></asp:ListItem>
+                        <asp:ListItem Text="Nasarawa" Value="Nasarawa" ></asp:ListItem>
+                        <asp:ListItem Text="Niger" Value="Niger" ></asp:ListItem>
+                        <asp:ListItem Text="Ogun" Value="Ogun" ></asp:ListItem>
+                        <asp:ListItem Text="Ondo" Value="Ondo" ></asp:ListItem>
+                        <asp:ListItem Text="Osun" Value="Osun" ></asp:ListItem>
+                        <asp:ListItem Text="Oyo" Value="Oyo" ></asp:ListItem>
+                        <asp:ListItem Text="Plateau" Value="Plateau" ></asp:ListItem>
+                        <asp:ListItem Text="Rivers" Value="Rivers" ></asp:ListItem>
+                        <asp:ListItem Text="Sokoto" Value="Sokoto" ></asp:ListItem>
+                        <asp:ListItem Text="Taraba" Value="Taraba" ></asp:ListItem>
+                        <asp:ListItem Text="Yobe" Value="Yobe" ></asp:ListItem>
+                        <asp:ListItem Text="Zamfara" Value="Zamfara" ></asp:ListItem>
                     </asp:DropDownList>
-                    <label>Section</label>
+                    <label>State</label>
                 </div>  
             </div>
-            <div class="row">
-                <div class="input-field col s6">
-                    <asp:DropDownList ID="DropDownList5" runat="server">
-                        <asp:ListItem Text="IT" Value="IT"></asp:ListItem>
-                        <asp:ListItem Text="ECE" Value="ECE"></asp:ListItem>
-                        <asp:ListItem Text="BME" Value="BME"></asp:ListItem>
-                    </asp:DropDownList>
-                    <label>Branch</label>
-                </div>             
+            <div class="row">            
                 <div class="row center input-field col s6">
  
                         <asp:RadioButtonList ID="RadioButtonList1" runat="server" RepeatDirection="Horizontal" RepeatLayout="Flow">
